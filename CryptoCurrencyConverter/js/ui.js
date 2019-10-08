@@ -69,7 +69,7 @@ class UI {
             <div class="card cyan darken-3">
                 <div class="card-content black-text">
                     <span class="rank card-title"><i class="fa fa-trophy" aria-hidden="true"></i>Ranked: #${result.rank}</i></span>                    
-                    <h4>The price of ${result.name} in ${currency} is <h4 class="amount green-text">$${value}</h4></h4>  
+                    <h4>The price of ${result.name} in ${currency} is <h4 class="amount green-text">${value}</h4></h4>  
                     <p class="percent white-text">Percent Changes:</p>                  
                     <p class="white-text">Last Hour: ${result.percent_change_1h}%</p>
                     <p class="white-text">Last Day: ${result.percent_change_24h}%</p>
