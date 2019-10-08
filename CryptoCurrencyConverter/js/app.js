@@ -16,7 +16,6 @@ form.addEventListener('submit', (e) => {
     const currencySelect = document.getElementById('currency').value;
     //read cryptocurrency
     const cryptoCurrencySelect = document.getElementById('cryptocurrency').value;
-
     //Validate that the selects have values
     if(currencySelect === '' || cryptoCurrencySelect === ''){
         //displays error message
